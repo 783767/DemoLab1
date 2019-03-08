@@ -1,7 +1,7 @@
 let path = require('path');
 let express = require('express');
 let app = express();
-let mainRouter = require('mainRoutes.js'));
+let mainRouter = require('mainRoutes.js');
 app.use(mainRouter);
 let port = process.env.PORT || 3000;
 app.listen(port);
